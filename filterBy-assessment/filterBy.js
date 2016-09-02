@@ -17,6 +17,13 @@ var filterBy = function(collection, predicate) {
 // use filterBy on the `numbers collection` to return an array of odd numbers
 var numbers = [22, 25, 78, 61, 36, 981, 313];
 
+var oddNumbers = filterBy(numbers, function(odd){
+	var answer = [];
+	return(odd(number % 2 !== 0))});
+    answer.push(oddNumbers);
+
+console.log(oddNumbers);
+
 // use filterBy on the `numbers collection` to return an array of numbers that are smaller
 // than the threshold.
 var threshold = 75;
